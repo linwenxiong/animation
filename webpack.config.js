@@ -14,7 +14,14 @@ const config = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin({template: './src/index.html'})
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            template: './src/view/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'order.html',
+            template: './src/view/order.html'
+        })
     ],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
