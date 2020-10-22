@@ -1,0 +1,32 @@
+{
+  "name": "animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linwenxiong/animation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linwenxiong/animation/issues"
+  },
+  "homepage": "https://github.com/linwenxiong/animation#readme"
+}
